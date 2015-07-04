@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+	To make it a folder that git is aware of an can be tracked. And so becoming a repository.
+	To be able to start the process of tracking my files.
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	The staging area is a kind of working cache - I can choose which files to put in there and when I'm read I can commit only those.
+	It gives me more control of which files I want to commit at any given time without having to commit all files every time.
