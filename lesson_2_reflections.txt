@@ -7,4 +7,9 @@ How is the staging area different from the working directory and the repository?
 How can you use the staging area to make sure you have one commit per logical change?
 	By only adding one file (or only the files needed for the one change) to the staging area. When using commit now
 	only the one logical change is commited. Other changes that might already be in my working directory arn't 
-	commited now but can be later.  
+	commited now but can be later.
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	When just trying out new features - especially when branching from a working project - it makes it obvious that 
+	all changes belong to a new feature. But if I don't want to keep the feature or it won't work I can just go back to the master.
+How do the diagrams help you visualize the branch structure?
+	They show the logical connections and so help understanding it.
