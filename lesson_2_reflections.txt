@@ -4,5 +4,7 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 	The staging area is a kind of working cache - I can choose which files to put in there and when I'm read I can commit only those.
 	It gives me more control of which files I want to commit at any given time without having to commit all files every time.
-	..need to change something
-	...
+How can you use the staging area to make sure you have one commit per logical change?
+	By only adding one file (or only the files needed for the one change) to the staging area. When using commit now
+	only the one logical change is commited. Other changes that might already be in my working directory arn't 
+	commited now but can be later.  
