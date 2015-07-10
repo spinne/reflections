@@ -13,3 +13,9 @@ What are some situations when branches would be helpful in keeping your history 
 	all changes belong to a new feature. But if I don't want to keep the feature or it won't work I can just go back to the master.
 How do the diagrams help you visualize the branch structure?
 	They show the logical connections and so help understanding it.
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	A new commit is created that has two partent nodes (the two last nodes of the merged branches) - Diagram: To show they have two parent 
+	nodes and what the history of these is.
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	Probably faster than manual - you only have to look at files git tells you to. The might be bug introduced because of a merge where 
+	git can't tell that this code should be looked at.
